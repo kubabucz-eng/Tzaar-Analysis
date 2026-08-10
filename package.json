@@ -1,0 +1,20 @@
+{
+  "name": "tzaar-analysis-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Analyzer for recorded TZAAR games (LittleGolem SGF-like format).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
+  }
+}
